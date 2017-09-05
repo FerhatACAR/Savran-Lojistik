@@ -1,0 +1,447 @@
+body{
+  background-color: white;
+}
+/*######################## Menu Properties ###################*/
+.navbar , .dropdown-menu{
+  background-color: white;
+}
+.nav{
+  margin: 0px 0px 0px -35px;
+}
+.navbar-brand img{
+  margin: -15px 0px 0px -20px;
+  width: 235px;
+  height: 90px;
+}
+.navbar-nav li{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 0px 20px 0px;
+}
+.dropdown-menu li{
+  padding: 0px;
+  margin: 0px;
+  font-size: 15px;
+}
+.nav a{
+  color: #585858;
+  text-transform: uppercase;
+}
+.nav a:hover{
+  color: black;
+}
+#split{
+  border-left: 2px solid grey;
+  border-radius: 0px;
+}
+.navbar-fixed-top{
+border-bottom: 3px solid grey;
+border-radius: 0px;
+}
+.Topin{
+  padding: 0px 0px 0px 25px;
+  float: right;
+  margin: 15px 0px -43px 0px;
+}
+.Topin p{
+  font-size: 14px;
+  margin: 0px;
+}
+.toplog{
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+#face{
+  width: 23px;
+  height: 23px;
+  margin-right: 110px;
+  margin-left: 10px
+}
+.top-nav-collapse{
+  background-color: #db0000;
+  color: white;
+  border: 0px;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.56);
+  -moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.56);
+  box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.56);
+}
+/*#################### After Slider Triple Menu ################*/
+.triplemenu{
+  padding:10px 100px 0px 100px;
+  color: white;
+}
+.triplemenu2{
+  padding:0px 100px 10px 100px;
+  color: white;
+}
+.wrapp{
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  padding-bottom: 30px;
+  background-color: #c70000;
+}
+.midimg{
+  position:relative;
+  width: 25%;
+  height: 25%;
+  margin: auto;
+  margin-top: -37px;
+}
+.topimg{
+  height: 70%;
+  width: 100%;
+  margin: auto;
+}
+.trippara{
+  margin:0px 20px 20px 20px;
+}
+/*########################## Double Menu ######################*/
+.leftside{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #c9c9c9;
+}
+.degerler{
+  background-color: #c70000;
+  border-radius: 20px;
+}
+.doubleimg{
+  border: 2px solid gray;
+  height: 30%;
+  width: 50%;
+  float: left;
+  margin-left: -15px;
+  margin-right: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.doublepara{
+  margin: auto;
+  text-align:left;
+  word-wrap: break-word;
+  padding: 20px 10px 0px 10px;
+  color: white;
+}
+.rightside{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #c9c9c9;
+}
+.lokasyon{
+  background-color: #c70000;
+  border-radius: 20px;
+}
+.dblwhite{
+  background-color: white;
+}
+/*####################### Content Area #############################*/
+.content{
+  background-color: #e5e5e5;
+  width: 100%;
+  margin: 90px 0px 0px 0px;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+.conimg{
+  border: 2px solid gray;
+  float: right;
+  width:45%;
+  height: 55%;
+  margin: 0px 0px 30px 30px;
+}
+#van{
+  width: 30%;
+  height: 30%;
+}
+.conleft{
+  padding: 10px 0px 20px 0px;
+  width: 90%;
+  border-left: 3px solid grey;
+  border-top: 3px solid grey;
+  background-color: #c9c9c9;
+}
+.conleft a{
+  color: black;
+  text-decoration: none;
+}
+.conleft li{
+  list-style: none;
+}
+.conright{
+  border-left: 3px solid grey;
+}
+.conhead{
+  text-align: center;
+  margin: 40px 0px 35px -5px;
+}
+.conpara {
+  margin: 0px 60px 0px 60px;
+  text-align: left;
+}
+.conpara p{
+  text-indent: 45px;
+}
+.conile h2{
+  margin-left: 100px;
+}
+.iletisim{
+  list-style: none;
+}
+.google{
+  width: 90%;
+  height: 100%;
+  text-align: center;
+}
+/*########################## Fonts and Size ########################*/
+h4{
+  font-weight: bold;
+}
+.devamı{
+  border: 2px white solid;
+  border-radius: 50px;
+  padding: 7px 12px 7px 12px;
+  text-decoration: none;
+  color: white;
+}
+.devamı:hover{
+  color: black;
+  text-decoration: none;
+}
+/*######################### Back To Top #############################*/
+#backto{
+  height: 20px;
+  width: 20px;
+  color: red;
+}
+#backtotop{z-index:999; display:inline-block; position:fixed; visibility:hidden; bottom:20px; right:20px; width:36px; height:36px; line-height:36px; font-size:16px; text-align:center; opacity:.2;}
+#backtotop i{display:block; width:100%; height:100%; line-height:inherit;}
+#backtotop.visible{visibility:visible; opacity:.7;}
+#backtotop:hover{opacity:1;}
+#backtotop{color:#FFFFFF; background-color:#ff4242;}
+/*######################## Footer Section ############################*/
+.footer{
+  background-color: #767676;
+  color: black;
+}
+.leftfoot{
+  background-color: #767676;
+  height: 280px;
+}
+.rightfoot{
+  background-color: #767676;
+  height: 280px;
+}
+.copyright{
+  border-right: 2px solid white;
+  background-color: #767676;
+  padding-right: 30px;
+  margin: 0px 10px 20px 0px;
+}
+.copyright p{
+  margin: 0px 20px 0px 40px;
+  font-size: 11px;
+  color: black;
+}
+.logofoot{
+  margin: 20px 0px 20px 0px;
+  margin-left: 22%;
+  width: 55%;
+  height: 55%;
+}
+.men1,.men2{
+  float: left;
+  display: inline;
+  margin-right: 70px;
+}.footmenu h4{
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.men1 li,.men2 li{
+  font-size: 14px;
+  text-decoration: none;
+  list-style: none;
+  margin-left: -35px;
+  margin-bottom: 15px;
+}
+.men1 a,.men2 a{
+  color: black;
+}
+/*######################## Media Properties ##########################*/
+@media (max-width:1185px) {
+  .navbar-nav li{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 26px 0px 26px 0px;
+  }
+  .dropdown-menu li{
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+  }
+}
+@media (min-width:1085px) {
+  .wrapp:hover{
+    margin-top:-5px;
+  }
+}
+@media (max-width:1085px) {
+  .navbar-nav li{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 0px 0px 10px;
+  }
+  .navbar-nav{
+    margin-top: 20px;
+  }
+  .dropdown-menu li{
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+    font-size: 15px;
+  }
+  .navbar-brand img{
+    margin: -15px 0px 0px -20px;
+    width: 170px;
+    height: 88px;
+  }
+  .navbar{
+  }
+  .navbar-header{
+    margin-bottom: 20px;
+  }
+  #split{
+    border-left: 0px;
+    border-radius: 0px;
+  }
+  .Topin{
+    padding:0;
+    float: left;
+    margin: 0px;
+    margin-top: -8px;
+  }
+}
+@media (max-width:800px) {
+  .col1 , .col2 , .col3 , .col4 , .col5 , .col6{
+   background-color: white;
+  }
+  .triplemenu{
+    padding:10px 50px 0px 50px;
+    color: white;
+  }
+  .triplemenu2{
+    padding:0px 50px 10px 50px;
+    color: white;
+  }
+  .wrapp{
+    text-align: center;
+    margin: 40px 100px 0px 100px;
+  }
+  .trippara,.doublepara{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+  }
+  .conright{
+    border: 0px;
+  }
+}
+@media (max-width:507px) {
+  .demo_wrapper{
+    margin-top: -39px;
+  }
+  .col1 , .col2 , .col3 , .col4 , .col5 , .col6{
+    background-color: white;
+  }
+  .wrapp{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+  }
+  .trippara,.doublepara{
+    font-size: 12px;
+    padding: 10px 0px 0px 10px;
+  }
+  .leftside,.rightside{
+    margin: 0px;
+    padding: 10px 5px 10px 5px;
+  }
+  .conhead{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .conpara{
+    margin: 10px 0px 10px -5px;
+    text-align: left;
+    text-indent: 25px;
+    border-radius: 7px;
+  }
+  .conpara p{
+    padding: 10px 10px 10px 10px;
+  }
+  .conimg{
+    width: 100%;
+  }
+  .doubleimg{
+    height: 20%;
+    width: 50%;
+    border-radius: 0px;
+  }
+  .lokasyonwrap,.degerlerwrap{
+    padding-bottom: 20px;
+  }
+  .devamı{
+    margin-top:20px;
+  }
+  .triplemenu{
+    padding:10px 15px 0px 15px;
+    color: white;
+  }
+  .triplemenu2{
+    padding:0px 10px 10px 10px;
+    color: white;
+  }
+  .conile h2{
+    margin-left: 50px;
+
+  }
+  .copyright{
+    border-right: 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+  }
+  .footmenu h2{
+    font-size: 30px;
+  }
+  .demo_wrapper img{
+    height: 180px;
+  }
+  .leftfoot{
+    background-color: #767676;
+  }
+  .rightfoot{
+    background-color: #767676;
+    height: 750px;
+  }
+  .men2,.men1{
+    padding-right: 120px;
+    margin: 0px;
+  }
+  .footmenu a{
+    font-size: 13px;
+  }
+  .footmenu h4{
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  .leftmen{
+    display: none;
+  }
+  #split{
+    border-left: 0px;
+    border-radius: 0px;
+  }
+}
+@media (min-width:1085px) {
+  .dropdown:hover .dropdown-menu {
+  display: block;
+  }
+}
