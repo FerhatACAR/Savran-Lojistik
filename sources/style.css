@@ -15,7 +15,8 @@ body{
 }
 .navbar-nav li{
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
+  font-family: "Head";
   padding: 20px 0px 20px 0px;
 }
 .dropdown-menu li{
@@ -68,12 +69,16 @@ border-radius: 0px;
 }
 /*#################### After Slider Triple Menu ################*/
 .triplemenu{
-  padding:10px 100px 0px 100px;
+  padding:10px 120px 0px 120px;
   color: white;
 }
 .triplemenu2{
   padding:0px 100px 10px 100px;
   color: white;
+}
+.col4 .topimg , .col6 .topimg{
+  border: 1px solid gray;
+  border-bottom: 0px;
 }
 .wrapp{
   text-align: center;
@@ -95,6 +100,8 @@ border-radius: 0px;
 }
 .trippara{
   margin:0px 20px 20px 20px;
+  font-family: "Para";
+  font-size: 15px;
 }
 /*########################## Double Menu ######################*/
 .leftside{
@@ -122,6 +129,7 @@ border-radius: 0px;
   word-wrap: break-word;
   padding: 20px 10px 0px 10px;
   color: white;
+  font-family: "Para";
 }
 .rightside{
   padding-top: 50px;
@@ -161,6 +169,9 @@ border-radius: 0px;
   border-top: 3px solid grey;
   background-color: #c9c9c9;
 }
+.lefttr{
+  width: 28%;
+}
 .conleft a{
   color: black;
   text-decoration: none;
@@ -171,16 +182,32 @@ border-radius: 0px;
 .conright{
   border-left: 3px solid grey;
 }
+.bhead{
+  color: #c70000;
+}
+.conheadspan{
+  border-bottom: 5px double Black;
+}
+.redvalues{
+  color: red;
+}
 .conhead{
   text-align: center;
-  margin: 40px 0px 35px -5px;
+  color: #c70000;
+  font-family: "Head";
+  font-weight:bolder;
+  margin: 40px 0px 35px -15px;
+  font-style: oblique;
 }
 .conpara {
   margin: 0px 60px 0px 60px;
   text-align: left;
+  font-size: 17px;
 }
 .conpara p{
-  text-indent: 45px;
+  font-family: "Para";
+  color: black;
+  font-size: 17px;
 }
 .conile h2{
   margin-left: 100px;
@@ -208,6 +235,30 @@ h4{
   color: black;
   text-decoration: none;
 }
+iframe{
+  border: 8px;
+  border-style: double;
+  border-radius: 5px;
+}
+.trihead{
+  font-family: "Head";
+  font-weight:400;
+  border-bottom: 1px dashed white;
+  padding-bottom: 10px;
+  margin: -15px 50px 15px 50px;
+}
+@font-face {
+  font-family: "Para";
+  src: url("Fonts/dosis/Dosis-Medium.otf");
+}
+@font-face {
+  font-family: "Head";
+  src: url("Fonts/biryani/Biryani-Light.otf");
+}
+.men1 h4 , .men2 h4 {
+  padding-bottom: 5px;
+  border-bottom: 2px dotted black;
+}
 /*######################### Back To Top #############################*/
 #backto{
   height: 20px;
@@ -226,11 +277,11 @@ h4{
 }
 .leftfoot{
   background-color: #767676;
-  height: 280px;
+  height: 290px;
 }
 .rightfoot{
   background-color: #767676;
-  height: 280px;
+  height: 290px;
 }
 .copyright{
   border-right: 2px solid white;
@@ -363,19 +414,18 @@ h4{
     margin: 0px;
     padding: 10px 5px 10px 5px;
   }
-  .conhead{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-  }
   .conpara{
     margin: 10px 0px 10px -5px;
     text-align: left;
-    text-indent: 25px;
     border-radius: 7px;
   }
   .conpara p{
     padding: 10px 10px 10px 10px;
+  }
+  .conhead{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
   }
   .conimg{
     width: 100%;
